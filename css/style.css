@@ -57,46 +57,62 @@ body {
 }
 
 .container {
-  background-color: #aaa;
+  background-color: #ccc;
   margin: 20px auto;
+  position: relative;
   width: 460px;
 }
-/*
+
 .arrow-left {
-  padding-left:
-} */
+  padding-left: 6px;
+  padding-top: 12px;
+}
+
 nav {
+  background-color: black;
   margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
+  padding: 10px 0 20px 15px;
+  position: absolute;
+  width: 460px;
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 72px;
   width: 60%;
-  margin: 0 0 10 0
 }
 
 .location h1 {
   font-size: 2em;
   color: black;
+  padding-left: 20px;
+  padding-bottom: 3px;
+  font-weight: bold;
 }
 
 .location h3 {
   font-size: 1.5em;
   color: black;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.content {
+  display: inline-block;
+  width: 460px;
+  border-top: 1px solid #000000;
+  /*border-bottom: 3px solid #ccc;*/
+  padding-top: 20px;
+  /*padding-bottom: -35px;*/
+  margin: -1em 0;
 }
 
 .arrow {
-  font size: 3em;
-  width: 70%;
+  width: 10%;
+  padding-left: 430px;
+  position: relative;
+  bottom: 35px;
 }
 
-h1:hover {
-  background-color: pink;
-}
-
-h3:hover {
-  background-color: pink;
+.content:hover {
+  background-color: grey;
 }
